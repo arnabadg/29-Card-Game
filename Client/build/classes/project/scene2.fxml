@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Scene2Controller">
+   <children>
+      <ImageView fx:id="face1" fitHeight="100.0" fitWidth="100.0" layoutX="558.0" layoutY="739.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../proj/player1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="face2" fitHeight="100.0" fitWidth="100.0" layoutX="1086.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../proj/player2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="face3" fitHeight="100.0" fitWidth="100.0" layoutX="568.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="755.0" AnchorPane.leftAnchor="568.0" AnchorPane.rightAnchor="546.7101440429688" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../proj/player4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="face4" fitHeight="100.0" fitWidth="100.0" layoutX="15.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../proj/player3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="card1" fitHeight="141.0" fitWidth="127.0" layoutX="167.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card2" fitHeight="141.0" fitWidth="106.0" layoutX="294.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card3" fitHeight="141.0" fitWidth="127.0" layoutX="404.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card4" fitHeight="141.0" fitWidth="127.0" layoutX="514.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card5" fitHeight="141.0" fitWidth="127.0" layoutX="624.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card6" fitHeight="141.0" fitWidth="127.0" layoutX="734.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card7" fitHeight="141.0" fitWidth="127.0" layoutX="849.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="card8" fitHeight="141.0" fitWidth="127.0" layoutX="960.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="draw1" fitHeight="141.0" fitWidth="127.0" layoutX="560.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="draw2" fitHeight="141.0" fitWidth="127.0" layoutX="689.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="draw3" fitHeight="141.0" fitWidth="127.0" layoutX="563.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="draw4" fitHeight="141.0" fitWidth="127.0" layoutX="435.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="141.0" fitWidth="127.0" layoutX="196.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="newdealbutton" layoutX="536.0" layoutY="523.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: orange;" text="New Deal">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="trumpbutton" layoutX="196.0" layoutY="243.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: yellow;" text="SET TRUMP" />
+      <Button fx:id="showtrumpbutton" layoutX="200.0" layoutY="485.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="118.0" style="-fx-background-color: orange;" text="Show Trump" />
+      <Button fx:id="bidbutton" layoutX="865.0" layoutY="362.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="143.0" style="-fx-background-color: yellow;" text="PLACE BID" />
+      <ChoiceBox fx:id="settrump" layoutX="196.0" layoutY="188.0" prefWidth="150.0" style="-fx-background-color: orange;" />
+      <ChoiceBox fx:id="placebid" layoutX="862.0" layoutY="306.0" prefWidth="150.0" style="-fx-background-color: orange;" />
+      <Label fx:id="label1" layoutX="206.0" layoutY="14.0" prefHeight="21.0" prefWidth="106.0" text="Top Bidder">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="206.0" layoutY="44.0" prefHeight="31.0" prefWidth="127.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="778.0" layoutY="12.0" prefHeight="31.0" prefWidth="143.0" text="Our Points:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="771.0" layoutY="50.0" prefHeight="31.0" prefWidth="134.0" text="Their Points:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="196.0" layoutY="291.0" prefHeight="31.0" prefWidth="106.0" text="   Trump">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label6" layoutX="838.0" layoutY="485.0" prefHeight="40.0" prefWidth="150.0" text="Our Score: ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label7" layoutX="830.0" layoutY="529.0" prefHeight="40.0" prefWidth="150.0" text="Their Score: ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
